@@ -538,6 +538,7 @@ func cloneNode(n *html.Node) *html.Node {
 		DataAtom: n.DataAtom,
 		Data:     n.Data,
 		Attr:     make([]html.Attribute, len(n.Attr)),
+		Line:     n.Line,
 	}
 
 	copy(nn.Attr, n.Attr)
