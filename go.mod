@@ -7,4 +7,4 @@ require (
 
 go 1.13
 
-replace golang.org/x/net => github.com/larrymjordan/net v0.0.0-20200714194128-a771946c73f6
+replace golang.org/x/net => github.com/larrymjordan/net v0.0.0-20200725184815-638d2fe3e26e
